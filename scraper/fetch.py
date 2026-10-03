@@ -787,8 +787,13 @@ ADDRESS_IN_TEXT_RE = re.compile(
     # Greedy, not lazy. Lazy matching stopped at the first street type it saw,
     # so "2860 Parkway Close" came back as "2860 Parkway" and then failed to
     # match the parcel. Greedy takes the longest run and backtracks.
+    # Numbered highways carry the route number AFTER the street type ("3283
+    # Hwy 27 Alternate"), so they get their own branch -- the plain list alone
+    # would stop at "3283 HWY" and the parcel match would fail.
     r"\b(\d{1,6}[A-Z]?\s+(?:[A-Z0-9'.\-]+\s+){0,5}"
-    r"(?:ST|STREET|RD|ROAD|DR|DRIVE|AVE|AVENUE|LN|LANE|CT|COURT|CIR|CIRCLE|"
+    r"(?:(?:HWY|HIGHWAY)\s+\d{1,4}[A-Z]?"
+    r"(?:\s+(?:ALTERNATE|ALT|BUSINESS|BUS|BYPASS|SPUR|CONNECTOR|LOOP))?|"
+    r"ST|STREET|RD|ROAD|DR|DRIVE|AVE|AVENUE|LN|LANE|CT|COURT|CIR|CIRCLE|"
     r"BLVD|BOULEVARD|PL|PLACE|TER|TERRACE|TRL|TRAIL|PKWY|PARKWAY|HWY|HIGHWAY|"
     r"WAY|RUN|XING|CROSSING|SQ|SQUARE|PT|POINT|PATH|BEND|RIDGE|CHASE|WALK|"
     r"CV|COVE|GLN|GLEN|LOOP|MNR|MANOR|OVERLOOK|PASS|VIEW|VLG|VILLAGE|"
@@ -1801,8 +1806,10 @@ def _clean_owner_candidate(raw: str) -> str:
     """Trim a capture back to just the name."""
     cand = clean_text(raw)
     # A full stop ends the name. "TERENCE B BELL. Levy date" is a name plus the
-    # next sentence. A trailing initial keeps its period ("ANITA M.").
-    cut = re.search(r"(?<=[a-z])\.\s|\.\s+[A-Z][a-z]", cand)
+    # next sentence. A trailing initial keeps its period ("ANITA M."), and a
+    # middle initial's period is not a sentence end ("Tommy H. Harris" must
+    # survive intact), so the second cut refuses to fire after a lone capital.
+    cut = re.search(r"(?<=[a-z])\.\s|(?<!\b[A-Z])\.\s+[A-Z][a-z]", cand)
     if cut:
         cand = cand[:cut.start() + 1]
     cand = cand.rstrip(". ")
@@ -1813,6 +1820,11 @@ def _clean_owner_candidate(raw: str) -> str:
     # Drop a trailing fragment that is clearly not part of a name.
     parts = cand.split()
     while parts and _NOT_AN_OWNER.fullmatch(parts[-1] or ""):
+        parts.pop()
+    # A trailing lone lowercase letter is the stump of "c/o" ("Felton Moulder
+    # c" from "... Moulder c/o Administrator ..."). Uppercase lone letters are
+    # real middle initials ("ANITA M") and are kept.
+    while parts and re.fullmatch(r"[a-z]", parts[-1] or ""):
         parts.pop()
     return " ".join(parts).strip(" ,.;:&-")
 
