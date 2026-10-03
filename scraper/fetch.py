@@ -3883,6 +3883,14 @@ def merge_archive(shaped: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         existing = merged.get(key)
         if existing:
             rec["first_seen"] = existing.get("first_seen") or rec.get("filed") or today
+            if rec.get("score") is None:
+                # A re-seen document skips the scoring pass when NEW_ONLY is on,
+                # so it arrives with no score and no flags. Letting it overwrite
+                # the archived row would erase the score it earned before --
+                # keep the earlier values instead.
+                rec["score"] = existing.get("score")
+                if not rec.get("flags"):
+                    rec["flags"] = existing.get("flags") or []
             updated += 1
         else:
             rec["first_seen"] = rec.get("first_seen") or today
@@ -4598,7 +4606,7 @@ async def run_all() -> int:
 
     # --- 7. Report ----------------------------------------------------------
     recs = payload.get("records", [])
-    scored = [r for r in recs if r.get("score", 0) >= 60]
+    scored = [r for r in recs if (r.get("score") or 0) >= 60]
     log.info("=" * 74)
     log.info("FINAL: %d leads | %d with property address | %d scoring 60+",
              payload["total"], payload["with_address"], len(scored))
