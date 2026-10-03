@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-02T20:18:14.217696-04:00",
+  "fetched_at": "2026-10-02T22:21:01.534232-04:00",
   "source": "Coweta County GA Public Records",
   "date_range": {
     "start": "2026-09-02",
@@ -95,8 +95,12 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week",
+        "Unknown heirs / unsettled estate"
+      ],
+      "score": 70,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     },
@@ -134,8 +138,11 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week"
+      ],
+      "score": 70,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     },
@@ -173,8 +180,11 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week"
+      ],
+      "score": 70,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     },
@@ -212,8 +222,11 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week"
+      ],
+      "score": 65,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     },
@@ -251,8 +264,11 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week"
+      ],
+      "score": 65,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     },
@@ -290,8 +306,11 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week"
+      ],
+      "score": 65,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     },
@@ -329,8 +348,11 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week"
+      ],
+      "score": 65,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     }
