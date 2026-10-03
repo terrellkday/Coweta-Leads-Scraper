@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-02T20:18:14.217696-04:00",
+  "fetched_at": "2026-10-02T20:06:03.542073-04:00",
   "source": "Coweta County GA Public Records",
   "date_range": {
     "start": "2026-09-02",
@@ -17,7 +17,7 @@
     "start": "2026-09-12",
     "end": "2026-09-26"
   },
-  "new_this_run": 0,
+  "new_this_run": 7,
   "archive_total": 7,
   "dashboard_days": 120,
   "total": 7,
@@ -95,8 +95,12 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week",
+        "Unknown heirs / unsettled estate"
+      ],
+      "score": 70,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     },
@@ -106,14 +110,14 @@
       "filed": "2026-09-26",
       "cat": "FC",
       "cat_label": "Pre-Foreclosure",
-      "owner": "Felton Moulder",
+      "owner": "Felton Moulder c",
       "parcel_owner": "",
       "name_order": "natural",
       "grantee": "",
       "amount": null,
       "legal": "The Newnan Times-Herald Saturday, September 26, 2026 City: Newnan County: Coweta CLASS:007 NOTICE OF FORECLOSURE OF RIGHT TO REDEEM TO: Def in Fi Fa Estate of Felton Moulder c/o Administrator Franklin Moulder; Occupant/Resident of 3283 Hwy 27 Alternate, Coweta County, GA; All persons known and unknown having of record in Coweta County any right, title interest in, or lien up ... click 'view' to open the full text.",
       "parcel_id": "",
-      "prop_address": "3283 HWY 27 ALTERNATE",
+      "prop_address": "3283 HWY",
       "prop_city": "",
       "prop_state": "GA",
       "prop_zip": "",
@@ -134,8 +138,11 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week"
+      ],
+      "score": 70,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     },
@@ -173,8 +180,11 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week"
+      ],
+      "score": 70,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     },
@@ -184,7 +194,7 @@
       "filed": "2026-09-26",
       "cat": "FC",
       "cat_label": "Pre-Foreclosure",
-      "owner": "Tommy H. Harris and Sandy S",
+      "owner": "Tommy H",
       "parcel_owner": "",
       "name_order": "natural",
       "grantee": "",
@@ -212,8 +222,11 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week"
+      ],
+      "score": 65,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     },
@@ -251,8 +264,11 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week"
+      ],
+      "score": 65,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     },
@@ -290,8 +306,11 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week"
+      ],
+      "score": 65,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     },
@@ -329,8 +348,11 @@
       "match_confidence": 0.0,
       "match_method": "none",
       "last_verified": "2026-10-03",
-      "flags": [],
-      "score": null,
+      "flags": [
+        "Pre-foreclosure",
+        "New this week"
+      ],
+      "score": 65,
       "county": "Coweta",
       "first_seen": "2026-10-02"
     }
