@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-10-22T07:07:23.513433-04:00",
+  "fetched_at": "2026-10-23T07:01:13.640183-04:00",
   "source": "Coweta County GA Public Records",
   "date_range": {
-    "start": "2026-10-19",
-    "end": "2026-10-22"
+    "start": "2026-10-20",
+    "end": "2026-10-23"
   },
   "run_window": {
-    "start": "2026-10-19",
-    "end": "2026-10-22"
+    "start": "2026-10-20",
+    "end": "2026-10-23"
   },
   "archive_range": {
     "start": "2026-10-02",
@@ -94,7 +94,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-10-22",
+      "last_verified": "2026-10-23",
       "flags": [
         "Pre-foreclosure",
         "New this week"
@@ -136,7 +136,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-10-22",
+      "last_verified": "2026-10-23",
       "flags": [
         "Pre-foreclosure",
         "New this week",
@@ -263,7 +263,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-10-22",
+      "last_verified": "2026-10-23",
       "flags": [
         "Pre-foreclosure",
         "New this week"
@@ -305,7 +305,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-10-22",
+      "last_verified": "2026-10-23",
       "flags": [
         "Pre-foreclosure",
         "New this week"
@@ -347,7 +347,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-10-22",
+      "last_verified": "2026-10-23",
       "flags": [
         "Pre-foreclosure",
         "New this week"
@@ -389,7 +389,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-10-22",
+      "last_verified": "2026-10-23",
       "flags": [
         "Pre-foreclosure",
         "New this week"
@@ -431,7 +431,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-10-22",
+      "last_verified": "2026-10-23",
       "flags": [
         "Pre-foreclosure",
         "New this week"
