@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-10-31T07:01:10.073763-04:00",
+  "fetched_at": "2026-11-01T07:01:20.467757-05:00",
   "source": "Coweta County GA Public Records",
   "date_range": {
-    "start": "2026-10-28",
-    "end": "2026-10-31"
+    "start": "2026-10-29",
+    "end": "2026-11-01"
   },
   "run_window": {
-    "start": "2026-10-28",
-    "end": "2026-10-31"
+    "start": "2026-10-29",
+    "end": "2026-11-01"
   },
   "archive_range": {
     "start": "2026-10-02",
@@ -17,7 +17,7 @@
     "start": "2026-09-26",
     "end": "2026-10-31"
   },
-  "new_this_run": 1,
+  "new_this_run": 0,
   "archive_total": 15,
   "dashboard_days": 120,
   "total": 15,
@@ -263,7 +263,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-10-31",
+      "last_verified": "2026-11-01",
       "flags": [
         "Pre-foreclosure",
         "New this week"
@@ -305,7 +305,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-10-31",
+      "last_verified": "2026-11-01",
       "flags": [
         "Pre-foreclosure",
         "New this week"
@@ -347,7 +347,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-10-31",
+      "last_verified": "2026-11-01",
       "flags": [
         "Pre-foreclosure",
         "New this week"
@@ -389,7 +389,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-10-31",
+      "last_verified": "2026-11-01",
       "flags": [
         "Pre-foreclosure",
         "New this week"
@@ -431,7 +431,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-10-31",
+      "last_verified": "2026-11-01",
       "flags": [
         "Pre-foreclosure",
         "New this week"
