@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-11-13T07:01:12.523640-05:00",
+  "fetched_at": "2026-11-14T07:01:06.752585-05:00",
   "source": "Coweta County GA Public Records",
   "date_range": {
-    "start": "2026-11-10",
-    "end": "2026-11-13"
+    "start": "2026-11-11",
+    "end": "2026-11-14"
   },
   "run_window": {
-    "start": "2026-11-10",
-    "end": "2026-11-13"
+    "start": "2026-11-11",
+    "end": "2026-11-14"
   },
   "archive_range": {
     "start": "2026-10-02",
@@ -15,7 +15,7 @@
   },
   "filed_range": {
     "start": "2026-09-26",
-    "end": "2026-11-07"
+    "end": "2026-11-14"
   },
   "new_this_run": 0,
   "archive_total": 18,
@@ -233,7 +233,7 @@
     {
       "doc_num": "GPN-966729bd7b2ce69f",
       "doc_type": "Notice of Sale Under Power",
-      "filed": "2026-11-07",
+      "filed": "2026-11-14",
       "cat": "FC",
       "cat_label": "Pre-Foreclosure",
       "owner": "Deloris W Smith and Michael L",
@@ -241,7 +241,7 @@
       "name_order": "natural",
       "grantee": "",
       "amount": null,
-      "legal": "The Newnan Times-Herald Saturday, November 07, 2026 City: Newnan County: Coweta CLASS:007 NOTICE OF SALE UNDER POWER GEORGIA, COWETA COUNTY Under and by virtue of the Power of Sale contained in a Security Deed given by Deloris W Smith and Michael L Smith to Bank of America, N.A. dated May 23, 2007, recorded in Deed Book 3199, Page 211, Coweta County, Georgia Records, as last ... click 'view' to open the full text.",
+      "legal": "The Newnan Times-Herald Saturday, November 14, 2026 City: Newnan County: Coweta CLASS:007 NOTICE OF SALE UNDER POWER GEORGIA, COWETA COUNTY Under and by virtue of the Power of Sale contained in a Security Deed given by Deloris W Smith and Michael L Smith to Bank of America, N.A. dated May 23, 2007, recorded in Deed Book 3199, Page 211, Coweta County, Georgia Records, as last ... click 'view' to open the full text.",
       "parcel_id": "",
       "prop_address": "",
       "prop_city": "",
@@ -263,7 +263,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-11-13",
+      "last_verified": "2026-11-14",
       "flags": [
         "Pre-foreclosure",
         "New this week"
@@ -275,7 +275,7 @@
     {
       "doc_num": "GPN-7c32d589f43e8ee1",
       "doc_type": "Notice of Sale Under Power",
-      "filed": "2026-11-07",
+      "filed": "2026-11-14",
       "cat": "FC",
       "cat_label": "Pre-Foreclosure",
       "owner": "Jeremiah M Almond and Pamela J",
@@ -283,7 +283,7 @@
       "name_order": "natural",
       "grantee": "",
       "amount": null,
-      "legal": "The Newnan Times-Herald Saturday, November 07, 2026 City: Newnan County: Coweta CLASS:007 NOTICE OF FORECLOSURE SALE UNDER POWER COWETA COUNTY , GEORGIA Under and by virtue of the Power of Sale contained in a Security Deed given by Jeremiah M Almond and Pamela J Almond to Regions Bank d/b/a Regions Mortgage, dated January 28, 2011, and recorded in Deed Book 3646, Page 418, ... click 'view' to open the full text.",
+      "legal": "The Newnan Times-Herald Saturday, November 14, 2026 City: Newnan County: Coweta CLASS:007 NOTICE OF FORECLOSURE SALE UNDER POWER COWETA COUNTY , GEORGIA Under and by virtue of the Power of Sale contained in a Security Deed given by Jeremiah M Almond and Pamela J Almond to Regions Bank d/b/a Regions Mortgage, dated January 28, 2011, and recorded in Deed Book 3646, Page 418, ... click 'view' to open the full text.",
       "parcel_id": "",
       "prop_address": "",
       "prop_city": "",
@@ -305,7 +305,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-11-13",
+      "last_verified": "2026-11-14",
       "flags": [
         "Pre-foreclosure",
         "New this week"
@@ -317,7 +317,7 @@
     {
       "doc_num": "GPN-c54e0c0907e16364",
       "doc_type": "Notice of Sale Under Power",
-      "filed": "2026-11-07",
+      "filed": "2026-11-14",
       "cat": "FC",
       "cat_label": "Pre-Foreclosure",
       "owner": "Ivy Foster, Sr., surviving tenant",
@@ -325,7 +325,7 @@
       "name_order": "natural",
       "grantee": "",
       "amount": null,
-      "legal": "The Newnan Times-Herald Saturday, November 07, 2026 City: Newnan County: Coweta CLASS:007 NOTICE OF SALE UNDER POWER GEORGIA, COWETA COUNTY Under and by virtue of the Power of Sale contained in that certain Security Deed given by Ivy Foster, Sr., surviving tenant of and Bessie L. Foster, as joint tenants with right of survivorship to Mortgage Electronic Registration Systems, ... click 'view' to open the full text.",
+      "legal": "The Newnan Times-Herald Saturday, November 14, 2026 City: Newnan County: Coweta CLASS:007 NOTICE OF SALE UNDER POWER GEORGIA, COWETA COUNTY Under and by virtue of the Power of Sale contained in that certain Security Deed given by Ivy Foster, Sr., surviving tenant of and Bessie L. Foster, as joint tenants with right of survivorship to Mortgage Electronic Registration Systems, ... click 'view' to open the full text.",
       "parcel_id": "",
       "prop_address": "",
       "prop_city": "",
@@ -347,7 +347,7 @@
       "status": "active",
       "match_confidence": 0.0,
       "match_method": "none",
-      "last_verified": "2026-11-13",
+      "last_verified": "2026-11-14",
       "flags": [
         "Pre-foreclosure",
         "New this week"
